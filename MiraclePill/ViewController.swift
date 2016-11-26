@@ -13,6 +13,12 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
 
+    
+    @IBOutlet weak var countryLabel: UILabel!
+    @IBOutlet weak var zipcodeLabel: UILabel!
+    @IBOutlet weak var countryTextBox: UITextField!
+    @IBOutlet weak var zipTextBox: UITextField!
+    
 let states = ["Alabama",
      "Alaska",
      "Arizona",
@@ -99,12 +105,24 @@ let states = ["Alabama",
         
         statePickerBtn.setTitle(states[row], for: UIControlState.normal)
         statePicker.isHidden = true
+        countryLabel.isHidden = false
+        countryTextBox.isHidden = false
+        zipcodeLabel.isHidden = false
+        zipTextBox.isHidden = false
     }
     
     
     
     @IBAction func stateButtonPressed(_ sender: Any) {
         statePicker.isHidden = false
+        
+        countryLabel.isHidden = true
+        countryTextBox.isHidden = true
+        zipcodeLabel.isHidden = true
+        zipTextBox.isHidden = true
     }
+    
+    
+    
 }
 
