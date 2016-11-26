@@ -145,6 +145,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJd-08-60I">
+                                <rect key="frame" x="47" y="600" width="335" height="45"/>
+                                <state key="normal" title="Button" image="buyNowBtn"/>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your City..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-x7-6Dc">
                                 <rect key="frame" x="14" y="349" width="345" height="30"/>
                                 <nil key="textColor"/>
@@ -167,6 +171,7 @@
                             <constraint firstItem="2Oo-VJ-9zB" firstAttribute="top" secondItem="eDy-20-a89" secondAttribute="bottom" constant="8" symbolic="YES" id="8h8-oQ-RMJ"/>
                             <constraint firstItem="txZ-T3-FNP" firstAttribute="leading" secondItem="QxM-s8-6Bp" secondAttribute="leading" id="8pW-dY-Yzy"/>
                             <constraint firstItem="dwT-U9-lE9" firstAttribute="top" secondItem="Vun-bx-Cfo" secondAttribute="bottom" constant="8" id="8za-vd-Xdv"/>
+                            <constraint firstItem="lJd-08-60I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31" id="BBi-39-KOr"/>
                             <constraint firstItem="txZ-T3-FNP" firstAttribute="trailing" secondItem="QxM-s8-6Bp" secondAttribute="trailing" id="Bbm-hg-CbW"/>
                             <constraint firstItem="guA-qb-zbx" firstAttribute="top" secondItem="Spv-ba-Q8z" secondAttribute="bottom" constant="8" symbolic="YES" id="Bsg-ah-1iS"/>
                             <constraint firstItem="2Oo-VJ-9zB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GQJ-hW-rj2"/>
@@ -186,11 +191,13 @@
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="leading" secondItem="dwT-U9-lE9" secondAttribute="leading" id="Xxz-XY-DIg"/>
                             <constraint firstItem="Cyk-22-4PJ" firstAttribute="trailing" secondItem="txZ-T3-FNP" secondAttribute="trailing" id="YOr-n8-zmR"/>
                             <constraint firstItem="Vun-bx-Cfo" firstAttribute="trailing" secondItem="2Oo-VJ-9zB" secondAttribute="trailing" id="YV2-Eo-isb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lJd-08-60I" secondAttribute="trailing" constant="-23" id="ZpH-ts-Ftr"/>
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="Zvy-Ge-W25"/>
                             <constraint firstItem="2Oo-VJ-9zB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="a29-B6-ztm"/>
                             <constraint firstItem="cRt-JG-EAx" firstAttribute="trailing" secondItem="dwT-U9-lE9" secondAttribute="trailing" id="aIg-CW-d3T"/>
                             <constraint firstItem="2Oo-VJ-9zB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aTf-aa-i7s"/>
                             <constraint firstItem="QxM-s8-6Bp" firstAttribute="top" secondItem="5w0-jH-rmD" secondAttribute="bottom" constant="8" id="aiD-sk-f2k"/>
+                            <constraint firstItem="lJd-08-60I" firstAttribute="top" secondItem="sl1-EP-2RO" secondAttribute="bottom" constant="20" id="bGD-zI-z6X"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2Oo-VJ-9zB" secondAttribute="bottom" constant="501" id="bJ1-OH-W7F"/>
                             <constraint firstAttribute="bottom" secondItem="cpR-5n-OE9" secondAttribute="bottom" constant="239" id="cZD-Tx-Qr6"/>
                             <constraint firstItem="0HV-5P-jTS" firstAttribute="top" secondItem="cpR-5n-OE9" secondAttribute="bottom" constant="8" symbolic="YES" id="d8O-Tp-vsn"/>
@@ -239,6 +246,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
     </resources>
 </document>
