@@ -158,6 +158,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="AHx-9R-K6O">
+                                <rect key="frame" x="68" y="269" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -184,11 +187,13 @@
                             <constraint firstItem="cpR-5n-OE9" firstAttribute="leading" secondItem="txZ-T3-FNP" secondAttribute="leading" id="IYH-Tg-Noz"/>
                             <constraint firstItem="guA-qb-zbx" firstAttribute="trailing" secondItem="Cyk-22-4PJ" secondAttribute="trailing" id="KxR-RD-jvo"/>
                             <constraint firstItem="guA-qb-zbx" firstAttribute="leading" secondItem="0HV-5P-jTS" secondAttribute="leading" id="MAq-uX-Rdz"/>
+                            <constraint firstItem="AHx-9R-K6O" firstAttribute="centerX" secondItem="QxM-s8-6Bp" secondAttribute="centerX" id="NFe-GZ-Kl8"/>
                             <constraint firstItem="QxM-s8-6Bp" firstAttribute="top" secondItem="5w0-jH-rmD" secondAttribute="bottom" constant="8" id="O44-n3-lEj"/>
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="top" secondItem="cRt-JG-EAx" secondAttribute="bottom" constant="8" symbolic="YES" id="O9s-r0-AaZ"/>
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="trailing" secondItem="2Oo-VJ-9zB" secondAttribute="trailing" id="OiH-Xb-bP1"/>
                             <constraint firstItem="XsD-x7-6Dc" firstAttribute="top" secondItem="QxM-s8-6Bp" secondAttribute="bottom" constant="2" id="P4N-Jt-4CS"/>
                             <constraint firstItem="Cyk-22-4PJ" firstAttribute="trailing" secondItem="0HV-5P-jTS" secondAttribute="trailing" id="PRf-3p-Lhy"/>
+                            <constraint firstItem="AHx-9R-K6O" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pzx-WH-spF"/>
                             <constraint firstItem="Vun-bx-Cfo" firstAttribute="leading" secondItem="2Oo-VJ-9zB" secondAttribute="leading" id="U4g-yT-zK0"/>
                             <constraint firstItem="Vun-bx-Cfo" firstAttribute="top" secondItem="2Oo-VJ-9zB" secondAttribute="bottom" constant="8" id="UwZ-Zg-MMI"/>
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="leading" secondItem="dwT-U9-lE9" secondAttribute="leading" id="Xxz-XY-DIg"/>
@@ -206,6 +211,7 @@
                             <constraint firstItem="0HV-5P-jTS" firstAttribute="top" secondItem="cpR-5n-OE9" secondAttribute="bottom" constant="8" symbolic="YES" id="d8O-Tp-vsn"/>
                             <constraint firstItem="cpR-5n-OE9" firstAttribute="top" secondItem="txZ-T3-FNP" secondAttribute="bottom" constant="8" symbolic="YES" id="dLr-2n-b7D"/>
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="leading" secondItem="cRt-JG-EAx" secondAttribute="leading" id="e9q-a4-94n"/>
+                            <constraint firstItem="AHx-9R-K6O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="eFe-4m-p4c"/>
                             <constraint firstItem="Cyk-22-4PJ" firstAttribute="centerX" secondItem="eDy-20-a89" secondAttribute="centerX" id="hS6-cF-zDF"/>
                             <constraint firstItem="txZ-T3-FNP" firstAttribute="top" secondItem="QxM-s8-6Bp" secondAttribute="bottom" constant="46" id="hep-T6-iaV"/>
                             <constraint firstItem="QxM-s8-6Bp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i4E-vG-0rN"/>
@@ -214,6 +220,7 @@
                             <constraint firstItem="2Oo-VJ-9zB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="ksa-M4-fGD"/>
                             <constraint firstItem="Cyk-22-4PJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="kuK-Jq-mr4"/>
                             <constraint firstItem="eDy-20-a89" firstAttribute="top" secondItem="cfQ-l9-RrG" secondAttribute="bottom" constant="8" symbolic="YES" id="kzF-e2-jto"/>
+                            <constraint firstItem="AHx-9R-K6O" firstAttribute="top" secondItem="cRt-JG-EAx" secondAttribute="bottom" constant="1" id="ldN-Gh-RSv"/>
                             <constraint firstItem="cfQ-l9-RrG" firstAttribute="centerX" secondItem="eDy-20-a89" secondAttribute="centerX" id="lhi-Rz-wab"/>
                             <constraint firstItem="5w0-jH-rmD" firstAttribute="leading" secondItem="Vun-bx-Cfo" secondAttribute="leading" id="lnU-ee-IZo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sl1-EP-2RO" secondAttribute="bottom" constant="87" id="mqv-g3-N9O"/>
@@ -250,6 +257,7 @@
                         <outlet property="statePickerBtn" destination="cpR-5n-OE9" id="VdG-tA-69W"/>
                         <outlet property="streetNameAddressBox" destination="5w0-jH-rmD" id="kee-g8-5wM"/>
                         <outlet property="streetNameLabel" destination="cRt-JG-EAx" id="DJ5-A7-cjS"/>
+                        <outlet property="successImage" destination="AHx-9R-K6O" id="32j-Dc-INa"/>
                         <outlet property="zipTextBox" destination="guA-qb-zbx" id="HxZ-Jx-QzT"/>
                         <outlet property="zipcodeLabel" destination="Spv-ba-Q8z" id="aa9-cc-A0n"/>
                     </connections>
@@ -262,5 +270,6 @@
     <resources>
         <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
+        <image name="successIndicator" width="180" height="180"/>
     </resources>
 </document>

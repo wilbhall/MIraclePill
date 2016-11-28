@@ -13,6 +13,10 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     
     var buyNowClicked:Bool = false
    
+    
+    
+    @IBOutlet weak var successImage: UIImageView!
+    
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
 
@@ -46,16 +50,26 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     
     @IBAction func buyNowButtonPressed(_ sender: Any) {
         
+
+      self.toggleScreen()
+       
+    }
+    
+    
+    func toggleScreen(){
+        
         if !self.buyNowClicked{
             hideAll()
             self.buyNowClicked = true
+            successImage.isHidden = false
         }else{
             showAll()
-             self.buyNowClicked = false
+            self.buyNowClicked = false
+            successImage.isHidden = true
         }
-        
-       
     }
+    
+    
     
     func hideAll(){
         
