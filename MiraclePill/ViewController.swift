@@ -10,14 +10,98 @@ import UIKit
 
 class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
     
+    
+    var buyNowClicked:Bool = false
+   
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
 
+    @IBOutlet weak var stateLabel: UILabel!
     
     @IBOutlet weak var countryLabel: UILabel!
     @IBOutlet weak var zipcodeLabel: UILabel!
     @IBOutlet weak var countryTextBox: UITextField!
     @IBOutlet weak var zipTextBox: UITextField!
+    
+    
+    @IBOutlet weak var miraclePillEmoji: UIImageView!
+    @IBOutlet weak var miraclePillLabel: UILabel!
+    
+    @IBOutlet weak var moneyLabel: UILabel!
+    
+    
+    @IBOutlet weak var divider: UIView!
+    
+    @IBOutlet weak var fullNameLabel: UILabel!
+    @IBOutlet weak var fullNameTextBox: UITextField!
+    
+    @IBOutlet weak var streetNameLabel: UILabel!
+    @IBOutlet weak var streetNameAddressBox: UITextField!
+    
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var cityTextBox: UITextField!
+    
+    
+    @IBOutlet weak var buyNowButton: UIButton!
+    
+    @IBAction func buyNowButtonPressed(_ sender: Any) {
+        
+        if !self.buyNowClicked{
+            hideAll()
+            self.buyNowClicked = true
+        }else{
+            showAll()
+             self.buyNowClicked = false
+        }
+        
+       
+    }
+    
+    func hideAll(){
+        
+       statePicker.isHidden = true
+       statePickerBtn.isHidden = true
+      countryLabel.isHidden = true
+        zipcodeLabel.isHidden = true
+        countryTextBox.isHidden = true
+         zipTextBox.isHidden = true
+        miraclePillEmoji.isHidden = true
+        miraclePillLabel.isHidden = true
+        divider.isHidden = true
+       fullNameLabel.isHidden = true
+        fullNameTextBox.isHidden = true
+        streetNameLabel.isHidden = true
+       streetNameAddressBox.isHidden = true
+         cityLabel.isHidden = true
+       cityTextBox.isHidden = true
+       // buyNowButton.isHidden = true
+        stateLabel.isHidden = true
+        moneyLabel.isHidden = true
+    }
+    
+    
+    func showAll(){
+        
+        statePicker.isHidden = true
+        statePickerBtn.isHidden = false
+        countryLabel.isHidden = false
+        zipcodeLabel.isHidden = false
+        countryTextBox.isHidden = false
+        zipTextBox.isHidden = false
+        miraclePillEmoji.isHidden = false
+        miraclePillLabel.isHidden = false
+        divider.isHidden = false
+        fullNameLabel.isHidden = false
+        fullNameTextBox.isHidden = false
+        streetNameLabel.isHidden = false
+        streetNameAddressBox.isHidden = false
+        cityLabel.isHidden = false
+        cityTextBox.isHidden = false
+        // buyNowButton.isHidden = true
+        stateLabel.isHidden = false
+        moneyLabel.isHidden = false
+    }
+    
     
 let states = ["Alabama",
      "Alaska",

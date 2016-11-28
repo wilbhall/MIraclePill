@@ -53,7 +53,7 @@
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FULL NAME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vun-bx-Cfo">
-                                <rect key="frame" x="14" y="174" width="345" height="24"/>
+                                <rect key="frame" x="16" y="174" width="343" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="XHS-wU-SBf"/>
                                 </constraints>
@@ -62,7 +62,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwT-U9-lE9">
-                                <rect key="frame" x="14" y="206" width="345" height="30"/>
+                                <rect key="frame" x="16" y="206" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="moX-Tr-Xpo"/>
                                 </constraints>
@@ -71,7 +71,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STREET ADDRESS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRt-JG-EAx">
-                                <rect key="frame" x="14" y="244" width="345" height="24"/>
+                                <rect key="frame" x="16" y="244" width="343" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="3cy-05-A6I"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="ocF-j0-Fze"/>
@@ -81,13 +81,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Address...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-jH-rmD">
-                                <rect key="frame" x="14" y="276" width="345" height="39"/>
+                                <rect key="frame" x="16" y="276" width="343" height="39"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CITY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxM-s8-6Bp">
-                                <rect key="frame" x="14" y="323" width="347" height="24"/>
+                                <rect key="frame" x="16" y="323" width="343" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="JgL-ex-RBI"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="Oiv-XC-aqs"/>
@@ -97,19 +97,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txZ-T3-FNP">
-                                <rect key="frame" x="14" y="393" width="347" height="15"/>
+                                <rect key="frame" x="16" y="393" width="343" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cyk-22-4PJ">
-                                <rect key="frame" x="14" y="468" width="347" height="30"/>
+                                <rect key="frame" x="16" y="468" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HV-5P-jTS">
-                                <rect key="frame" x="16" y="436" width="345" height="24"/>
+                                <rect key="frame" x="16" y="436" width="343" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Q4l-eg-mir"/>
                                 </constraints>
@@ -118,7 +118,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZIP CODE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spv-ba-Q8z">
-                                <rect key="frame" x="14" y="506" width="345" height="24"/>
+                                <rect key="frame" x="16" y="506" width="343" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Yw7-BF-69Z"/>
                                 </constraints>
@@ -127,7 +127,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpR-5n-OE9">
-                                <rect key="frame" x="14" y="416" width="128" height="12"/>
+                                <rect key="frame" x="16" y="416" width="128" height="12"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="12" id="5iE-bp-3Pg"/>
                                 </constraints>
@@ -140,7 +140,7 @@
                                 <rect key="frame" x="16" y="436" width="343" height="144"/>
                             </pickerView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Zip Code...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="guA-qb-zbx">
-                                <rect key="frame" x="16" y="538" width="345" height="30"/>
+                                <rect key="frame" x="16" y="538" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -148,9 +148,12 @@
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJd-08-60I">
                                 <rect key="frame" x="47" y="600" width="335" height="45"/>
                                 <state key="normal" title="Button" image="buyNowBtn"/>
+                                <connections>
+                                    <action selector="buyNowButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ovK-1t-MV5"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your City..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XsD-x7-6Dc">
-                                <rect key="frame" x="14" y="349" width="345" height="30"/>
+                                <rect key="frame" x="16" y="349" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -232,10 +235,21 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="countryLabel" destination="0HV-5P-jTS" id="UhI-K1-xQz"/>
+                        <outlet property="cityLabel" destination="QxM-s8-6Bp" id="nRK-LP-LEe"/>
+                        <outlet property="cityTextBox" destination="XsD-x7-6Dc" id="ue7-OW-7j3"/>
+                        <outlet property="countryLabel" destination="0HV-5P-jTS" id="6as-0R-Nnw"/>
                         <outlet property="countryTextBox" destination="Cyk-22-4PJ" id="U51-le-wTn"/>
+                        <outlet property="divider" destination="2Oo-VJ-9zB" id="v8C-F3-Kzj"/>
+                        <outlet property="fullNameLabel" destination="Vun-bx-Cfo" id="1lx-Yn-XGg"/>
+                        <outlet property="fullNameTextBox" destination="dwT-U9-lE9" id="r2F-uF-Svo"/>
+                        <outlet property="miraclePillEmoji" destination="eFt-XK-LgM" id="RJc-sJ-Bl7"/>
+                        <outlet property="miraclePillLabel" destination="cfQ-l9-RrG" id="KWG-v8-QIx"/>
+                        <outlet property="moneyLabel" destination="eDy-20-a89" id="YHg-Kg-YSC"/>
+                        <outlet property="stateLabel" destination="txZ-T3-FNP" id="7E7-SS-a8F"/>
                         <outlet property="statePicker" destination="sl1-EP-2RO" id="aLE-dO-o3B"/>
                         <outlet property="statePickerBtn" destination="cpR-5n-OE9" id="VdG-tA-69W"/>
+                        <outlet property="streetNameAddressBox" destination="5w0-jH-rmD" id="kee-g8-5wM"/>
+                        <outlet property="streetNameLabel" destination="cRt-JG-EAx" id="DJ5-A7-cjS"/>
                         <outlet property="zipTextBox" destination="guA-qb-zbx" id="HxZ-Jx-QzT"/>
                         <outlet property="zipcodeLabel" destination="Spv-ba-Q8z" id="aa9-cc-A0n"/>
                     </connections>
